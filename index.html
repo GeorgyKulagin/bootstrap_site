@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-md fixed-top">
     <a href="#" class="navbar-brand">Home</a>
-<!-- burger menu    -->
+    <!-- burger menu    -->
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
         <span class="fa fa-bars"></span>
     </button>
@@ -74,15 +75,24 @@
     <h1 class="text-center my-5">Portfolio</h1>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
-            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4"><img src="img/portfolio-image.png" alt="pic" class="img-fluid m-1">
+            </div>
         </div>
     </div>
 </div>
@@ -128,28 +138,47 @@
     </div>
 </div>
 
+<!--contact-->
+<div class="contact-form mt-5" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <h1>Contact us</h1>
+                <p>Phone: <span itemprop="telephone"><a href="tel:+78966424982">+7(896)6424982</a></span></p>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A546ddb6c6bd7ba6c95b829d5e17e228dfe52c7be97163c1e2243b178e9ef4c3d&amp;source=constructor"
+                        width="100%" height="400" frameborder="0"></iframe>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name" id="name">Name:</label>
+                        <input type="text" class="form-control form-control-lg" placeholder="Input your name"
+                               name="name" required autocomplete="off">
+                    </div>
 
+                    <div class="form-group">
+                        <label for="e-mail">e-mail:</label>
+                        <input type="email" id="e-mail" class="form-control form-control-lg"
+                               placeholder="Input your e-mail"
+                               name="e-mail" required autocomplete="off">
+                    </div>
 
+                    <div class="form-group">
+                        <label for="tel">Phone:</label>
+                        <input type="tel" id="tel" class="form-control form-control-lg" placeholder="+7"
+                               name="tel" required autocomplete="off">
+                    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="form-group">
+                        <label for="comment">Комментарий:</label>
+                        <textarea class="d-block w-100" name="comment" id="comment" cols="30" rows="5"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="send">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -158,5 +187,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.0.7/imask.min.js"
+        integrity="sha512-qCt/OTd55ilhuXLRNAp/G8uONXUrpFoDWsXDtyjV4wMbvh46dOEjvHZyWkvnffc6I2g/WHSKsaFUCm0RISxnzQ=="
+        crossorigin="anonymous"></script>
+<script src="js/anchor.js"></script>
 </body>
 </html>
